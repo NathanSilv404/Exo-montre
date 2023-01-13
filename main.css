@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(233, 225, 225, 0.998);
+}
+
+
+.montre {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 300px;
+  right: 225px;
+  transition: all 0.3s ease-in-out;
+}
+.orange {
+  background-color: rgba(201, 84, 109, 0.705);
+  height: 650px;
+  
+  border-radius: 0px 240px 240px 0px;
+
+  position: relative;
+
+}
+
+
+
+
+.card {
+  box-shadow: 5px 5px 5px rgba(211, 211, 211, 0.222);
+  height: 650px;
+  width: 700px;
+  padding-top: 150px;
+  align-content: center;
+  color: rgba(43, 43, 43, 0.647);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  
+}
+
+.card:hover {
+  width: 800px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+.lorem {
+  border-bottom: solid rgba(201, 84, 109, 0.705) 1px;
+}
+
+
+.stargrey {
+  color: #96969d;
+}
+
+.yellow {
+  color: rgba(201, 84, 109, 0.705);
+}
+
+.star:hover {
+  cursor: pointer;
+}
+
+
+
+
+#myform {
+  text-align: center;
+  padding: 5px;
+
+  margin: 2%;
+}
+
+.qty {
+  width: 40px;
+  height: 25px;
+  border: none;
+
+  text-align: center;
+}
+
+input.qtyplus {
+  width: 35px;
+  height: 30px;
+  background-color: darkgray;
+  color: white;
+  border: none;
+}
+
+input.qtyminus {
+  width: 35px;
+  height: 30px;
+  background-color: darkgray;
+  color: white;
+  border: none;
+}
+
+.cart {
+  width: 170px;
+  height: 40px;
+  background-color: rgba(201, 84, 109, 0.705);
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.cart:hover {
+  background-color: rgba(218, 50, 50, 0.525);
+
+}
+
+.qtyplus:hover {
+  background-color: rgba(201, 84, 109, 0.705);
+
+}
+
+.qtyminus:hover {
+  background-color: rgba(201, 84, 109, 0.705);
+
+}
+
+.card:hover .shop {
+  opacity: 1;
+  right: 0%;
+}
+
+
+.shop {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+}
